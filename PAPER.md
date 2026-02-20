@@ -2,7 +2,8 @@
 
 **Rafael Amichis Luengo**¹, **Claude** (Anthropic)², with adversarial contributions from **Gemini** (Google), **ChatGPT** (OpenAI), and **Grok** (xAI)
 
-¹ Proyecto Estrella · ² Lead computational engine
+¹ Proyecto Estrella, Madrid, Spain (Psychology graduate, Universidad Complutense de Madrid)
+² Lead computational engine
 
 *February 20, 2026*
 
@@ -40,7 +41,7 @@ A linear [n, k, d] code over GF(3) is a k-dimensional subspace of GF(3)ⁿ with 
 
     n ≥ Σᵢ₌₀ᵏ⁻¹ ⌈d/3ⁱ⌉
 
-For [n, k] = [33, 6] and d = 19, the Griesmer bound yields n ≥ 19 + 7 + 3 + 1 + 1 + 1 = 32, so d = 19 is not excluded. For d = 20, n ≥ 20 + 7 + 3 + 1 + 1 + 1 = 33, and checking the exact sum shows d = 20 would require n ≥ 34. Hence Ub(33, 6) = 19.
+For [n, k] = [33, 6] and d = 19, the Griesmer bound yields n ≥ 19 + 7 + 3 + 1 + 1 + 1 = 32, so d = 19 is not excluded. For d = 20, n ≥ 34. Hence Ub(33, 6) = 19.
 
 ### 2.2 Construction XX
 
@@ -172,11 +173,11 @@ Additionally verified by exhaustive enumeration: all 2186 possible dimension-6 s
 
 **Theorem 2.** *For every dimension-6 subcode of the [33, 7, 18]₃ and every column c ∈ GF(3)⁶, the extended code [34, 6, d] has d ≤ 18.*
 
-Verified by testing all 728 possible nonzero columns for all 7 row-deletion subcodes (5096 combinations total). Maximum distance is 18 in all cases.
+Verified by testing all 728 possible nonzero columns for all 7 row-deletion subcodes (5096 combinations total). Maximum distance is 18 in all cases. □
 
 ### 4.3 BCH [64, 16, 24] Immunity
 
-The extended BCH [64, 16, 24]₂ has 5040 codewords of weight 24. Each coordinate position appears in exactly 1890 of these codewords (perfect symmetry from the automorphism group AGL(6,2)). Consequently, strategic shortening or puncturing produces identical results regardless of position selection. All dimension-12 subcodes have d = 24.
+The extended BCH [64, 16, 24]₂ has 5040 codewords of weight 24. Each coordinate position appears in exactly 1890 of these codewords (perfect symmetry from the automorphism group AGL(6,2)). Consequently, strategic shortening or puncturing produces identical results regardless of position selection. All dimension-12 subcodes have d = 24. □
 
 ## 5. Complementary Results
 
