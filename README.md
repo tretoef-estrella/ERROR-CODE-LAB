@@ -45,12 +45,13 @@ This repository documents a 48-hour intensive research campaign (19–20 Februar
 ## Repository Structure
 
 ```
-├── README.md              ← You are here
-├── GUIDE.md               ← Accessible explanation for everyone  
-├── PAPER.md               ← Scientific paper with full methodology
-├── HISTORY.md             ← Complete narrative from minute one
-├── CITATION.cff           ← Machine-readable citation
-├── LICENSE                 ← CC BY 4.0
+├── README.md                  ← You are here
+├── GUIDE.md                   ← Accessible explanation for everyone
+├── PAPER.md                   ← Scientific paper with full methodology
+├── HISTORY.md                 ← Complete narrative from minute one
+├── EXECUTIVE_SUMMARY.md       ← Summary for the AI team (Gemini, ChatGPT, Grok)
+├── CITATION.cff               ← Machine-readable citation
+├── LICENSE                    ← CC BY 4.0
 ├── codes/
 │   ├── bch_construction.md    ← BCH code constructions over GF(3)
 │   ├── belov_construction.md  ← Belov code from PG(3,3)
@@ -62,7 +63,7 @@ This repository documents a 48-hour intensive research campaign (19–20 Februar
 │   └── weight_analysis.md     ← Weight-18 avoidance analysis
 ├── results/
 │   ├── session_report.json    ← Machine-readable final report
-│   ├── impossibility_proofs.md ← Formal impossibility results
+│   ├── impossibility_proofs.md← Formal impossibility results
 │   └── search_statistics.md   ← Comprehensive search data
 └── strategy/
     ├── lessons_learned.md     ← 8 traps and how to avoid them
@@ -71,11 +72,11 @@ This repository documents a 48-hour intensive research campaign (19–20 Februar
 
 ## The Team
 
-- **Rafa — The Architect** ([Proyecto Estrella](https://github.com/tretoef-estrella)) — Coordination, data verification, strategic direction
+- **Rafa — The Architect** ([Proyecto Estrella](https://github.com/tretoef-estrella)) — Coordination, data verification, strategic direction. Psychology graduate from Universidad Complutense de Madrid, currently training for a truck driving license (C category + ADR). Not an expert in anything, but knows a little about everything. Based in Madrid, Spain.
 - **Claude** (Anthropic) — Lead engine, code execution, Construction XX implementation
-- **Gemini** (Google) — Algebraic theory, subfield subcodes, trace code design
-- **ChatGPT** (OpenAI) — Algorithm design, 3-level pruning, mutation operators
-- **Grok** (xAI) — Code execution, QR code construction, codetables.de lookup
+- **Gemini** (Google) — Algebraic theory, subfield subcodes, trace code design, diagnosed the critical "soldadura" (basis alignment) bug
+- **ChatGPT** (OpenAI) — Algorithm design, 3-level pruning pipeline, mutation operators, proposed Vector D (subcode enumeration)
+- **Grok** (xAI) — Code execution, QR code construction path for GF(4), codetables.de verification
 
 ## How to Cite
 
