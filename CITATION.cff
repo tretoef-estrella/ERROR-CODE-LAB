@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+type: dataset
+title: "Error Code Lab: Distributed AI Research on Optimal Linear Codes over Finite Fields"
+authors:
+  - family-names: "Amichis Luengo"
+    given-names: "Rafael"
+    alias: "Rafa — The Architect"
+    affiliation: "Proyecto Estrella"
+  - name: "Claude (Anthropic)"
+  - name: "Gemini (Google)"
+  - name: "ChatGPT (OpenAI)"
+  - name: "Grok (xAI)"
+date-released: "2026-02-20"
+url: "https://github.com/tretoef-estrella/error-code-lab"
+repository-code: "https://github.com/tretoef-estrella/error-code-lab"
+license: "CC-BY-4.0"
+keywords:
+  - linear-codes
+  - error-correcting-codes
+  - coding-theory
+  - finite-fields
+  - construction-xx
+  - bch-codes
+  - ai-research
+  - distributed-computation
+  - codetables
+  - galois-fields
+abstract: >-
+  A 48-hour distributed AI research campaign using four AI systems
+  (Claude, Gemini, ChatGPT, Grok) coordinated by a human architect
+  to search for optimal linear codes over GF(2), GF(3), and GF(4).
+  Results include: verified Construction XX producing [33,7,18] over GF(3)
+  from BCH ingredients; Belov [32,4,21] from projective geometry PG(3,3);
+  impossibility proof that [33,6,19] cannot arise as a subcode of the
+  Grassl [33,7,18] via Construction XX; and empirical evidence across
+  2.5M+ evaluated codes and 11 methods suggesting d_3(33,6)=18.
+```
+
+---
+
+**Nota sobre ti** (para añadir al final del README.md, sección "The Team", después de tu nombre):
+```
+- **Rafa — The Architect** ([Proyecto Estrella](https://github.com/tretoef-estrella)) — Coordination, data verification, strategic direction. Psychology graduate from Universidad Complutense de Madrid, currently training for a truck driving license (C category + ADR). Not an expert in anything, but knows a little about everything. Based in Madrid, Spain.
+```
+
+Y en PAPER.md, la afiliación:
+```
+¹ Proyecto Estrella, Madrid, Spain (Psychology graduate, UCM)
