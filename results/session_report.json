@@ -1,0 +1,53 @@
+{
+  "PROJECT": "ERROR CODE LAB — Distributed AI Research on Optimal Linear Codes",
+  "TARGET": "[33, 6, 19] over GF(3) — gap open since 2011",
+  "DATE": "2026-02-20",
+  "TEAM": "Rafael Amichis Luengo (Architect) + Claude (Anthropic) + Gemini (Google) + ChatGPT (OpenAI) + Grok (xAI)",
+  "CHAMPION_BUILT": {
+    "code": "[33, 7, 18] over GF(3)",
+    "method": "Construction XX",
+    "ingredients": {
+      "C": "[26, 7, 14] BCH(d=14, b=1)",
+      "C1": "[26, 4, 17] BCH(d=17, b=1)",
+      "C2": "[26, 6, 15] BCH(d=15, b=0)",
+      "A1": "[6, 3, 3] random systematic",
+      "A2": "[1, 1, 1] repetition"
+    },
+    "XX_bound": "min(14+3+1, 17+1, 15+3) = min(18, 18, 18) = 18",
+    "verified": true,
+    "weight_distribution": {"18":240,"19":324,"20":162,"21":216,"22":324,"23":162,"24":216,"25":324,"26":162,"27":56}
+  },
+  "BELOV_CODE_BUILT": {
+    "code": "[32, 4, 21] Belov ProjectiveGeometryCode",
+    "method": "PG(3,3) minus two coordinate 2-planes",
+    "derived": "[30, 4, 19] by puncturing",
+    "verified": true
+  },
+  "IMPOSSIBILITY_RESULTS": [
+    {
+      "theorem": "[33,6,19] CANNOT exist as subcode of [33,7,18] via XX(BCH-26)",
+      "proof": "240 weight-18 codewords. 26 zero-tail ones span rank 3/3. Any hyperplane contains at least one.",
+      "searched": "All 2186 dim-6 subcodes exhaustively checked"
+    },
+    {
+      "theorem": "Column extension to [34,6,>=19] fails universally",
+      "proof": "All 728 columns x 7 subcodes = 5096 combinations tested. Max d = 18."
+    },
+    {
+      "theorem": "BCH [64,16,24] immune to subcode improvement",
+      "proof": "5040 weight-24 codewords, 1890 per coordinate (perfect symmetry). All dim-12 subcodes have d=24."
+    }
+  ],
+  "SEARCH_RESULTS": {
+    "random_GF3_33_6": {"trials": "1M+", "best_d": 18, "pct_at_Lb": "36%"},
+    "QC_cyclic_index3": {"trials": 222331, "best_d": 17, "rate": "7939/s"},
+    "QT_constacyclic_lambda2": {"trials": 26939, "best_d": 18},
+    "random_extension_34_6": {"trials": "5096", "best_d": 18},
+    "genetic_algorithm": {"trials": "~4000", "generations": 41, "best_d": 18},
+    "plateau_walk": {"steps": 6763, "best_d": 18}
+  },
+  "TOTAL_CODES_EVALUATED": "2,500,000+",
+  "TOTAL_METHODS_TESTED": 11,
+  "SESSION_DURATION": "~48 hours across multiple chats",
+  "NEXT_TARGET": "[22, 6, 13] over GF(4) via subcode of extended QR [22, 7, 12]"
+}
