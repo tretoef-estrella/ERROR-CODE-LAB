@@ -1,7 +1,7 @@
 # ERROR CODE LAB — Phase 2: Final Report
 ## The [22, 6, 13]₄ Campaign — Complete Elimination Map
 ### 20-21 February 2026
-### Rafa — The Architect | Claude (Anthropic) × 2 | Gemini | ChatGPT | Grok
+### Rafael Amichis Luengo — The Architect | Claude (Anthropic) × 2 | Gemini | ChatGPT | Grok
 
 ---
 
