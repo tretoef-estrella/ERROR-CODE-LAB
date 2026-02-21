@@ -169,7 +169,7 @@ The full 48-hour narrative is in [`HISTORY.md`](HISTORY.md). The traps and lesso
 
 ## The Team
 
-- **Rafa — The Architect** ([Proyecto Estrella](https://github.com/tretoef-estrella)) — A psychology graduate who coordinated four AI systems through a 48-hour mathematical research campaign using intuition, metaphors, and persistence. Responsible for strategic direction, data verification, trap identification, and pushing past every point where the machines wanted to stop.
+- **Rafael Amichis Luengo — The Architect** ([Proyecto Estrella](https://github.com/tretoef-estrella)) — A psychology graduate who coordinated four AI systems through a 48-hour mathematical research campaign using intuition, metaphors, and persistence. Responsible for strategic direction, data verification, trap identification, and pushing past every point where the machines wanted to stop.
 - **Claude** (Anthropic) × 2 instances — Lead computational engine, code execution, impossibility proofs, Construction XX implementation, [22,5,14]₄ construction.
 - **Gemini** (Google) — Algebraic theory, subfield subcodes, trace code design, QT factorization, GF(64) evaluation point selection.
 - **ChatGPT** (OpenAI) — Algorithm design, QT structural ceiling theorem, 3-level pruning engine, dual search strategy.
