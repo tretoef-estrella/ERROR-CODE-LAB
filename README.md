@@ -21,9 +21,9 @@ This repository documents a 48-hour intensive research campaign (19–21 Februar
 
 **Target:** d₄(22, 6) — open gap since 2001 (25 years). Lower bound 12, upper bound 13.
 
-**Verdict:** After exhaustive analysis via **12 independent routes**, **4 AI systems**, and **~2 million code evaluations**, we conclude with high confidence that **d₄(22, 6) = 12**. The code [22, 6, 13]₄ almost certainly does not exist.
+**Verdict:** After exhaustive analysis via **12 independent routes**, **4 AI systems**, and **~2 million code evaluations**, every known construction method yields d=12. No formal proof of non-existence was found, but the evidence strongly suggests that **d₄(22, 6) = 12**. The gap remains officially open — what we provide here is the most comprehensive elimination map ever produced for it, documenting exactly *where* the code does not live and *why* each route fails.
 
-This is the most comprehensive elimination map ever produced for this gap. See [`results/gf4/phase2_final_report.md`](results/gf4/phase2_final_report.md) for the full analysis.
+See [`results/gf4/phase2_final_report.md`](results/gf4/phase2_final_report.md) for the full analysis.
 
 #### Routes Eliminated (12 total)
 
@@ -93,6 +93,17 @@ This is the most comprehensive elimination map ever produced for this gap. See [
 | Phase 2 (GF(4)) | 2,000,000+ | 12 | [22,6,13]₄ | ~24 hours |
 | **Total** | **~4,500,000** | **23** | **Multiple** | **~48 hours** |
 
+## Methodology: Human–AI Distributed Research
+
+This project is also an experiment in **human–AI collaboration at the frontier of mathematical research**. The workflow was not "human asks, AI answers." It was adversarial, iterative, and often driven by non-technical intuition:
+
+- The Architect proposed strategies through **everyday metaphors** — a clutch mechanism for synchronized search spaces, a Spartan phalanx for nested code construction, parents protecting daughters for symbiotic row interaction — which the AI systems then translated into concrete mathematical techniques (trace codes, Construction XX, cross-weight optimization).
+- Each AI contributed different strengths: algebraic theory (Gemini), algorithm design and structural proofs (ChatGPT), statistical assessment (Grok), and code execution with impossibility proofs (Claude).
+- The human identified **8 critical traps** that all four AIs fell into repeatedly (table parsing errors, overly aggressive filters, sandbox timeouts, trusting unverified bounds), and enforced discipline across the team.
+- When all four AIs converged on "stop searching," the human pushed further — producing the final 4 routes (trace codes, additive codes, CSP, QT hybrid) that completed the elimination map.
+
+The full 48-hour narrative is in [`HISTORY.md`](HISTORY.md).
+
 ## Repository Structure
 
 ```
@@ -134,7 +145,7 @@ This is the most comprehensive elimination map ever produced for this gap. See [
 
 ## The Team
 
-- **Rafa — The Architect** ([Proyecto Estrella](https://github.com/tretoef-estrella)) — Coordination, data verification, strategic direction, creative metaphors that translated to novel mathematical approaches
+- **Rafa — The Architect** ([Proyecto Estrella](https://github.com/tretoef-estrella)) — Coordination, data verification, strategic direction, creative metaphors that translated to novel mathematical approaches, and the persistence to push past every point where the machines wanted to stop
 - **Claude** (Anthropic) × 2 instances — Lead engine, code execution, impossibility proofs, Construction XX implementation
 - **Gemini** (Google) — Algebraic theory, subfield subcodes, trace code design, QT factorization
 - **ChatGPT** (OpenAI) — Algorithm design, QT structural ceiling theorem, 3-level pruning
@@ -150,7 +161,7 @@ See [CITATION.cff](CITATION.cff) or use:
 
 **Phase 1 — COMPLETE.** GF(2) and GF(3) campaigns finished. Construction XX mastered. Impossibility results proved.
 
-**Phase 2 — COMPLETE.** Target [22, 6, 13]₄ investigated via 12 independent routes. Strong evidence that d₄(22, 6) = 12. Comprehensive elimination map published.
+**Phase 2 — COMPLETE.** Target [22, 6, 13]₄ investigated via 12 independent routes. Every route yields d=12. The gap remains formally open, but this is the most thorough investigation it has ever received.
 
 **Future directions:** Formalize findings into arXiv preprint. Investigate remaining GF(4) open gaps with different targets. See [`strategy/next_steps.md`](strategy/next_steps.md).
 
